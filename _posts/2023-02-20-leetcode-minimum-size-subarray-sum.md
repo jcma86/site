@@ -1,7 +1,6 @@
 ---
 title: LeetCode 209 - Minimum Size Subarray Sum
 author: jose
-layout: post
 language: en 
 date: 2023-02-20 11:33:00 +0800
 categories: [Programming]
