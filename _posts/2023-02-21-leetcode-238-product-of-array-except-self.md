@@ -1,11 +1,13 @@
 ---
-title: LeetCode 238 - Product of Array Except Self
+title: Product of Array Except Self
+platform: LeetCode
+number: 238
 author: jose
 layout: post
 language: en 
 date: 2023-02-21 11:33:00 +0800
-categories: [Programming]
-tags: [Algorithms, C/C++, LeetCode]
+categories: [Programming, Contests]
+tags: [Algorithms, C/C++, Contests, LeetCode]
 difficulty: medium
 source: https://leetcode.com/problems/product-of-array-except-self/
 math: true
@@ -26,11 +28,11 @@ You must write an algorithm that runs in `O(n)` time and without using the divis
 
 ## Examples
 ---
-**Example 1:**  
+### **Example 1:**  
 >**Input:** nums = [1,2,3,4]  
 >**Output:** [24,12,8,6]  
 
-**Example 2:**  
+### **Example 2:**  
 >**Input:** nums = [-1,1,0,-3,3]  
 >**Output:** [0,0,9,0,0]  
 

@@ -1,10 +1,12 @@
 ---
-title: LeetCode 209 - Minimum Size Subarray Sum
+title: Minimum Size Subarray Sum
+platform: LeetCode
+number: 209
 author: jose
 language: en 
 date: 2023-02-20 11:33:00 +0800
-categories: [Programming]
-tags: [Algorithms, C/C++, LeetCode]
+categories: [Programming, Contests]
+tags: [Algorithms, C/C++, Contests, LeetCode]
 difficulty: medium
 source: https://leetcode.com/problems/minimum-size-subarray-sum/
 math: true
@@ -21,16 +23,16 @@ Given an array of positive integers `nums` and a positive integer `target`, retu
 
 ## Examples
 ---
-**Example 1:**  
+### **Example 1:**  
 >**Input:** target = 7, nums = [2,3,1,2,4,3]  
 >**Output:** 2  
 >**Explanation:** The subarray [4,3] has the minimal length under the problem constraint.
 
-**Example 2:**  
+### **Example 2:**  
 >**Input:** target = 4, nums = [1,4,4]  
 >**Output:** 1
 
-**Example 3:**  
+### **Example 3:**  
 >**Input:** target = 11, nums = [1,1,1,1,1,1,1,1]  
 >**Output:** 0
 

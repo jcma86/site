@@ -9,7 +9,14 @@ tail_includes:
 - comments
 ---
 
-<h1 data-toc-skip>{{ page.title }}</h1>
+<h1 data-toc-skip>
+  {% if page.platform %}
+  {{page.platform}}
+  {% endif %}
+  {% if page.number %}
+  #{{page.number}}{% endif %}{% if page.platform or page.number %}: {% endif %}
+  {{ page.title }}
+</h1>
 
 <div class="post-meta text-muted">
   <!-- published date -->
